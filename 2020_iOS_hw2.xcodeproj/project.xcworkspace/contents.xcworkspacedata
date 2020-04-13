@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:2020_iOS_hw2.xcodeproj">
+      location = "self:/Users/hannn/Desktop/iOS/2020_iOS_hw2/2020_iOS_hw2.xcodeproj">
    </FileRef>
 </Workspace>

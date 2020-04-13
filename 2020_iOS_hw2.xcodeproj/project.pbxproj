@@ -13,10 +13,17 @@
 		653836B3243216D800B000A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653836B2243216D800B000A9 /* Assets.xcassets */; };
 		653836B6243216D800B000A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653836B5243216D800B000A9 /* Preview Assets.xcassets */; };
 		653836B9243216D800B000A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653836B7243216D800B000A9 /* LaunchScreen.storyboard */; };
+		653836C1243229DD00B000A9 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653836C0243229DD00B000A9 /* mainView.swift */; };
+		653836C324322A0200B000A9 /* characterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653836C224322A0200B000A9 /* characterView.swift */; };
+		653836C524322A1200B000A9 /* productView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653836C424322A1200B000A9 /* productView.swift */; };
+		653836C724322A1F00B000A9 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653836C624322A1F00B000A9 /* aboutView.swift */; };
+		653836CB2432571700B000A9 /* dataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653836CA2432571700B000A9 /* dataSet.swift */; };
+		6538372E24442C4F00B000A9 /* musicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6538372D24442C4F00B000A9 /* musicView.swift */; };
+		6538373024442FB100B000A9 /* If_I_Had_a_Chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6538372F24442FB100B000A9 /* If_I_Had_a_Chicken.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		653836A9243216D600B000A9 /* 2020_iOS_hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2020_iOS_hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653836A9243216D600B000A9 /* Ology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		653836AC243216D600B000A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		653836AE243216D600B000A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		653836B0243216D600B000A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +31,14 @@
 		653836B5243216D800B000A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		653836B8243216D800B000A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		653836BA243216D800B000A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653836C0243229DD00B000A9 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		653836C224322A0200B000A9 /* characterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterView.swift; sourceTree = "<group>"; };
+		653836C424322A1200B000A9 /* productView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productView.swift; sourceTree = "<group>"; };
+		653836C624322A1F00B000A9 /* aboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
+		653836CA2432571700B000A9 /* dataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSet.swift; sourceTree = "<group>"; };
+		653836CC243B7A3700B000A9 /* Ology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ology.entitlements; sourceTree = "<group>"; };
+		6538372D24442C4F00B000A9 /* musicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicView.swift; sourceTree = "<group>"; };
+		6538372F24442FB100B000A9 /* If_I_Had_a_Chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = If_I_Had_a_Chicken.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +63,7 @@
 		653836AA243216D600B000A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				653836A9243216D600B000A9 /* 2020_iOS_hw2.app */,
+				653836A9243216D600B000A9 /* Ology.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +71,19 @@
 		653836AB243216D600B000A9 /* 2020_iOS_hw2 */ = {
 			isa = PBXGroup;
 			children = (
+				653836CC243B7A3700B000A9 /* Ology.entitlements */,
 				653836AC243216D600B000A9 /* AppDelegate.swift */,
 				653836AE243216D600B000A9 /* SceneDelegate.swift */,
+				653836C0243229DD00B000A9 /* mainView.swift */,
+				653836CA2432571700B000A9 /* dataSet.swift */,
+				6538372D24442C4F00B000A9 /* musicView.swift */,
+				653836C224322A0200B000A9 /* characterView.swift */,
+				653836C424322A1200B000A9 /* productView.swift */,
+				653836C624322A1F00B000A9 /* aboutView.swift */,
 				653836B0243216D600B000A9 /* ContentView.swift */,
 				653836B2243216D800B000A9 /* Assets.xcassets */,
 				653836B7243216D800B000A9 /* LaunchScreen.storyboard */,
+				6538372F24442FB100B000A9 /* If_I_Had_a_Chicken.mp3 */,
 				653836BA243216D800B000A9 /* Info.plist */,
 				653836B4243216D800B000A9 /* Preview Content */,
 			);
@@ -92,7 +115,7 @@
 			);
 			name = 2020_iOS_hw2;
 			productName = 2020_iOS_hw2;
-			productReference = 653836A9243216D600B000A9 /* 2020_iOS_hw2.app */;
+			productReference = 653836A9243216D600B000A9 /* Ology.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,6 +159,7 @@
 				653836B9243216D800B000A9 /* LaunchScreen.storyboard in Resources */,
 				653836B6243216D800B000A9 /* Preview Assets.xcassets in Resources */,
 				653836B3243216D800B000A9 /* Assets.xcassets in Resources */,
+				6538373024442FB100B000A9 /* If_I_Had_a_Chicken.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653836C724322A1F00B000A9 /* aboutView.swift in Sources */,
 				653836AD243216D600B000A9 /* AppDelegate.swift in Sources */,
+				653836C1243229DD00B000A9 /* mainView.swift in Sources */,
+				653836C524322A1200B000A9 /* productView.swift in Sources */,
+				653836CB2432571700B000A9 /* dataSet.swift in Sources */,
 				653836AF243216D600B000A9 /* SceneDelegate.swift in Sources */,
+				653836C324322A0200B000A9 /* characterView.swift in Sources */,
+				6538372E24442C4F00B000A9 /* musicView.swift in Sources */,
 				653836B1243216D600B000A9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 2020_iOS_hw2/Ology.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"2020_iOS_hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 2020_iOS_hw2/Info.plist;
@@ -293,7 +326,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hannn.-020-iOS-hw2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ology;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +337,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 2020_iOS_hw2/Ology.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"2020_iOS_hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 2020_iOS_hw2/Info.plist;
@@ -312,7 +349,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hannn.-020-iOS-hw2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ology;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
