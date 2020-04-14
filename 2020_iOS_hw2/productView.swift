@@ -42,8 +42,7 @@ struct productView: View {
                                 VStack{
                                     Image(products[self.num(i: index, j: item)].pic)
                                         .resizable()
-                                        .frame(height: 200)
-                                        .scaledToFit()
+                                        .scaledToFill()
                                         .clipped()
                                     
                                     Text(products[self.num(i: index, j: item)].name)

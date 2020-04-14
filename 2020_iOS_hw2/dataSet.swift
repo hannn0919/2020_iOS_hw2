@@ -54,8 +54,8 @@ let products: [product] = [
     product(pic: "book1", name: "奧樂雞是一隻雞", url: "https://goo.gl/Hr8MGj"),
     product(pic: "book2", name: "萬能打工雞", url: "http://rebrand.ly/a0386"),
     product(pic: "cup", name: "冰霸杯", url: "https://reurl.cc/6gANQr"),
-    product(pic: "doll", name: "玩偶/抱枕", url: "https://reurl.cc/94aWO"),
     product(pic: "notebook", name: "生活用品", url: "https://reurl.cc/e5jXWj"),
+    product(pic: "doll", name: "玩偶/抱枕", url: "https://reurl.cc/94aWO"),
     product(pic: "phone", name: "手機殼", url: "https://reurl.cc/EKGk40"),
     product(pic: "sleep", name: "寢具", url: "https://goo.gl/3DN41s"),
     product(pic: "tshirt", name: "服飾", url: "https://reurl.cc/o7AKv")]
